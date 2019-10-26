@@ -1,0 +1,28 @@
+package design.Builder;
+
+public class BenzBuilder implements CarBuilder{
+
+	Car benz;
+	
+	public BenzBuilder() {
+		// TODO Auto-generated constructor stub
+		benz = new Car();
+	}
+	
+	public void setFrame() {
+		benz.setCarFrame("±º≥€≥µ…Ì");
+	}
+	
+	public void setWheel() {
+		benz.setCarWheel("±º≥€¬÷Ã•");
+	}
+	
+	public void setName() {
+		benz.setName("±º≥€");
+	}
+	
+	public Car getCar() {
+		// TODO Auto-generated method stub
+		return benz;
+	}
+}
